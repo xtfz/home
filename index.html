@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="title" content="XTFZ - Coming Soon." />
+        <meta name="description" content="Coming Soon! 31 April 2023." />
+        <meta name="image" content="https://xtfz.tech/icon.png" />
+        <meta name="theme" content="#367EF4" />
+        <meta name="url" content="https://xtfz.tech/" />
+        <meta name="theme-color" content="#367EF4" />
+        <meta name="site_name" content="XTFZ" />
+        <meta name="hostname" content="XTFZ" />
+        <meta name="og:title" content="XTFZ - Coming Soon." />
+        <meta name="og:description" content="Coming Soon. 31 April 2023." />
+        <meta name="og:image" content="https://xtfz.tech/icon.png" />
+        <meta name="og:theme" content="#367EF4" />
+        <meta name="og:theme-color" content="#367EF4" />
+        <meta name="og:site_name" content="XTFZ" />
+        <meta name="og:url" content="https://xtfz.tech/" />
+        <link rel="shortcut icon" href="/logo.png" />
+        <title>XTFZ – Coming Soon.</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+            * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+            }
+            body {
+            background: linear-gradient(90deg, #367ef4, #143466);
+            }
+             #xtfz {
+             display: block;
+             margin: 10% 15%;
+             }
+             #title {
+             text-align: center;
+             font-family: "Open Sans", sans-serif;
+             letter-spacing: 4px;
+             font-size: 60px;
+             font-weight: bold;
+             color: white;
+             }
+             #subtitle {
+             text-align: center;
+             font-family: "Open Sans", sans-serif;
+             letter-spacing: 2px;
+             font-size: 30px;
+             color: rgba(255, 255, 255, 0.8);
+             }
+             #countdown {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             align-content: center;
+             }
+             #countdown p {
+             background: rgba(255, 255, 255, 0.2);
+             border: 2px solid rgba(255, 255, 255, 0.5);
+             padding: 20px;
+             border-radius: 10px;
+             font-size: 60px;
+             color: white;
+             margin: 1%;
+             font-family: "Kanit", sans-serif;
+             width: 40%;
+             text-align: center;
+             }
+             #countdown-text {
+             text-align: center;
+             font-family: "Kanit", sans-serif;
+             letter-spacing: 2px;
+             font-size: 20px;
+             color: white;
+             margin: 2%;
+             }
+             #link {
+             text-decoration: none;
+             background: rgba(255, 255, 255, 0.2);
+             border: 1px solid rgba(255, 255, 255, 0.5);;
+             padding: 6px 12px;
+             border-radius: 6px;
+             font-size: 20px;
+             color: white;
+             margin: 2%;
+             font-family: "Open Sans", sans-serif;
+             text-align: center;
+             transition: 0.6s;
+             }
+             #link:hover {
+             text-decoration: none;
+             background: rgba(255, 255, 255, 0.3);
+             border: 1px solid rgba(255, 255, 255, 0.5);;
+             padding: 6px 12px;
+             border-radius: 6px;
+             font-size: 20px;
+             color: white;
+             margin: 1%;
+             font-family: "Open Sans", sans-serif;
+             text-align: center;
+             transition: 0.6s;
+             }
+             #links {
+             display: block;
+             padding: 4px;
+             text-align:center;
+             }
+             #footer {
+             margin: 2%
+             padding: 10px;
+             }
+             #copyright {
+             color: white;
+             font-family: "Kanit", sans-serif;
+             text-align: center;
+             }
+             #nightmode {
+             cursor: pointer;
+             text-align:center;
+             color: rgba(255, 255, 255, 0.6);
+             font-family: "Open Sans", sans-serif;
+             margin: 3%;
+             }
+             @media only screen and (max-width: 600px) {
+              #countdown p {
+             background: rgba(255, 255, 255, 0.2);
+             border: 1px solid rgba(255, 255, 255, 0.5);
+             padding: 8px;
+             border-radius: 6px;
+             font-size: 30px;
+             color: white;
+             margin: 1%;
+             font-family: "Kanit", sans-serif;
+             width: 40%;
+             text-align: center;
+             }
+              #subtitle {
+             text-align: center;
+             font-family: "Open Sans", sans-serif;
+             letter-spacing: 2px;
+             font-size: 20px;
+             color: rgba(255, 255, 255, 0.8);
+             }
+              #title {
+             text-align: center;
+             font-family: "Open Sans", sans-serif;
+             letter-spacing: 4px;
+             font-size: 45px;
+             font-weight: bold;
+             color: white;
+             }
+             }
+        </style>
+    </head>
+    <body>
+        <div id="xtfz">
+            <h1 id="title">XTFZ</h1>
+            <h2 id="subtitle">Empowering the World with Technology.</h2>
+            <br />
+            <hr />
+            <br />
+            <h3 id="countdown-text">LAUNCHING IN</h3>
+            <div id="countdown">
+                <p id="days"></p>
+                <p id="hours"></p>
+                <p id="minutes"></p>
+                <p id="seconds"></p>
+            </div>
+            <h5 id="countdown-text">31 April 2023</h5>
+            <br />
+            <hr />
+            <br />
+            <div id="links">
+                <button onclick="window.location.href='//github.com/xtfz';" id="link" target="_blank">GitHub</button>
+                <button onclick="window.location.href='//discord.gg/GdCjHfXDvs';" id="link" target="_blank">Discord</button>
+                <button onclick="window.location.href='//twitter.com/TeamXTFZ';" id="link" target="_blank">Twitter</button>
+            </div>
+            <br />
+            <hr />
+            <br />
+            <div id="footer">
+                <p id="nightmode" onclick="document.body.style.background='#000000'">Turn on Night Mode</p>
+                <p id="copyright">Copyright 2023 XTFZ. All rights reserved.</p>
+            </div>
+        </div>
+        <script>
+            var countDownDate = new Date("April 31, 2023 00:00:00").getTime();
+            var x = setInterval(function () {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("days").innerHTML = days + "d";
+                document.getElementById("hours").innerHTML = hours + "h ";
+                document.getElementById("minutes").innerHTML = minutes + "m";
+                document.getElementById("seconds").innerHTML = seconds + "s";
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "SOON";
+                }
+            });
+        </script>
+    </body>
+</html>
